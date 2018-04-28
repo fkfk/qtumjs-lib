@@ -1,7 +1,7 @@
-var qtumjs = require('bitcoinjs-lib')
+var vipstarcoinjs = require('bitcoinjs-lib')
 
-Object.assign(qtumjs.networks, require('./networks'))
+Object.assign(vipstarcoinjs.networks, require('./networks'))
 
-qtumjs.utils = require('./utils')
+vipstarcoinjs.utils = require('./utils')
 
-module.exports = qtumjs
+module.exports = vipstarcoinjs
